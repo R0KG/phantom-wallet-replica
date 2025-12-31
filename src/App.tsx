@@ -11,7 +11,7 @@ function App() {
       <div className="w-full max-w-[400px] h-[100dvh] sm:h-[850px] bg-phantom-bg sm:rounded-[40px] flex flex-col overflow-hidden sm:border-[8px] sm:border-zinc-900 relative shadow-2xl ring-1 ring-white/5">
 
         {/* Status Bar Placeholder (Visual only) */}
-        <div className="h-[44px] w-full shrink-0"></div>
+        <div className="h-[44px] w-full shrink-0 pt-[env(safe-area-inset-top)]"></div>
 
         {/* Content Area - Scrollable */}
         <div className="flex-1 overflow-y-auto no-scrollbar flex flex-col">
