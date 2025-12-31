@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-phantom-bg: #0F0F0F;
+  --color-phantom-card: #1D1D1D;
+  --color-phantom-button: #2C2C2C;
+  --color-phantom-text: #FFFFFF;
+  --color-phantom-subtext: #999999;
+  --color-phantom-accent: #AB9FF2;
+
+  --font-sans: 'Inter', sans-serif;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
